@@ -18,7 +18,6 @@ if(!window.opener) {
 }
 
 var code = (window.location.href.match(/[\?\&]code=([^\&]*)/) || [null])[1];
-alert(code);
 var state = (window.location.href.match(/[\?\&]state=([^\&]*)/) || [null])[1];
 if(code && state) {
   $.getJSON('http://45.77.12.232:9999/authenticate/'+code, function(data) {
