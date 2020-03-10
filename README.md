@@ -64,3 +64,5 @@ Notes:
 * You can use any HTTP server, for example, install from `npm i -g http-server` 
   then run `http-server`.
 * @todo Document how to configure OAuth.
+* @todo Add key shortcut support for macOS.
+* @todo Add dark mode.
