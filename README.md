@@ -66,3 +66,4 @@ Notes:
 * @todo Document how to configure OAuth.
 * @todo Add key shortcut support for macOS.
 * @todo Add dark mode.
+* @todo Improve rotate&move for rotated keys.
