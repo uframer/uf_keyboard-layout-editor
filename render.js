@@ -181,11 +181,11 @@ var $renderKey = (typeof(exports) !== 'undefined') ? exports : {};
 	};
 
 	$renderKey.fullSVG = function(keys, metadata) {
-		// Render all the keys
-		var units = "px";
-	  var bbox = { x: 99999999, y:99999999, x2:-99999999, y2:-99999999 };
-	  var keysSVG = "";
-	  keys.forEach(function(key,index) {	  	
+	    // Render all the keys
+	    var units = "mm";
+	    var bbox = { x: 99999999, y:99999999, x2:-99999999, y2:-99999999 };
+	    var keysSVG = "";
+	    keys.forEach(function(key,index) {	  	
 	  	keysSVG += $renderKey.svg(key, index, bbox, unitSizes[units][getProfile(key)]);
 	  });
 
